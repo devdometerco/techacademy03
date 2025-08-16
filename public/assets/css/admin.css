@@ -1,0 +1,90 @@
+/* Estilos para a área administrativa - admin.css */
+
+/* Container para centralizar o conteúdo da página */
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0d1b2a; /* Fundo azul escuro */
+    color: #ffffff;            /* Texto padrão branco */
+    margin: 0; /* Zerando a margem para o container funcionar melhor */
+    padding: 20px 0; /* Adicionando espaço no topo/baixo */
+}
+
+h1 {
+    color: #ffffff; /* Título branco */
+}
+
+a {
+    color: #7bceff; /* Azul mais claro para links no fundo escuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: #ffffff; 
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333; /* Cor escura para os labels dentro do form branco */
+}
+
+/* Deixa o texto dentro dos campos escuro */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #333; /* Cor do texto PRETO */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #444; /* Linha um pouco mais clara que o fundo */
+    margin: 20px 0;
+}

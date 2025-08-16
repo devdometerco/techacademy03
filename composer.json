@@ -1,0 +1,12 @@
+{
+    "name": "devdometero/d2tech",
+    "description": "Loja de informática D2tech",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

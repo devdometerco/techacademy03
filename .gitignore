@@ -1,0 +1,9 @@
+# Arquivo de configuração de ambiente. Contém senhas! NUNCA enviar, e demais arquivos desnecessários.
+.env
+/vendor/
+
+.idea/
+.vscode/
+
+.DS_Store
+Thumbs.db

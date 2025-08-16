@@ -1,0 +1,91 @@
+$cor-fundo: #0d1b2a; // Azul bem escuro
+$cor-caixa: #ffffff;
+$cor-sombra: rgba(0, 0, 0, 0.1);
+$cor-botao: #3a86ff;
+$cor-botao-hover: #0056b3;
+$cor-texto-claro: #ffffff;
+$cor-borda: #dee2e6;
+$cor-erro: #e63946;
+
+// Estilos gerais do corpo da página
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $cor-fundo;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+    // Centraliza o conteúdo na tela
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+// Estilos da caixa de login
+.login-container {
+    background-color: $cor-caixa;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px $cor-sombra;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: $cor-fundo;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid $cor-borda;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+
+            &:focus {
+                outline: none;
+                border-color: $cor-botao;
+            }
+        }
+    }
+
+    .btn-submit {
+        width: 100%;
+        padding: 12px;
+        background-color: $cor-botao;
+        color: $cor-texto-claro;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: $cor-botao-hover;
+        }
+    }
+
+    .error-message {
+        color: $cor-erro;
+        background-color: lighten($cor-erro, 35%);
+        border: 1px solid lighten($cor-erro, 20%);
+        padding: 10px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
