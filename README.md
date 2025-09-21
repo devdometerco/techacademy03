@@ -4,7 +4,7 @@ Sistema de e-commerce desenvolvido como projeto acadêmico, com o objetivo de ap
 
 ## Descrição do Propósito
 
-Este sistema simula o back-end e a área administrativa de uma loja virtual para venda de itens de informática. A primeira etapa do projeto inclui o sistema de login para administradores e o CRUD (criação, leitura, atualização e exclusão) de produtos.
+Este sistema simula o back-end e a área administrativa  para venda de itens de informática. A primeira etapa do projeto inclui o sistema de login para administradores e o CRUD (criação, leitura, atualização e exclusão) de produtos.
 
 ## Instruções de Instalação e Execução
 
